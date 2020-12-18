@@ -31,3 +31,8 @@
 
 출력
 30
+
+
+
+문제 링크
+https://www.acmicpc.net/problem/1932
