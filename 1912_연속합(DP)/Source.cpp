@@ -1,7 +1,7 @@
 #include<iostream>
 
 /*
-2	1  -4	3	4 - 4	6	5  -5
+2	1  -4	3	4  -4	6	5  -5
 2	3  -1	3	7	3	9	14	9  //분할 최대값
 */
 int main() 
@@ -17,7 +17,7 @@ int main()
 
 	sum[0] = arr[0];
 	int max = sum[0];
-    
+
 	for (int i = 1; i < n; i++)
 	{
 		sum[i] = arr[i] > arr[i] + sum[i - 1] ? arr[i] : arr[i] + sum[i - 1]; //부분합 점화식
