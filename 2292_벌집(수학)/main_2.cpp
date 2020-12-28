@@ -1,6 +1,6 @@
 #include<iostream>
 
-int ~main()
+int main()
 {
 	using namespace std;
 	int n;
@@ -10,7 +10,7 @@ int ~main()
 	int plus = 6; 
 	int res = 1; 
 
-	while (true) S
+	while (true)
 	{
 		if (n < count)break; //n이 범위에 있으면 끝
 		else //없으면 더해주기
